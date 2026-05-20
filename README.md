@@ -12,10 +12,12 @@
 * Built with modern glassmorphism, glowing accents, and fluid backdrop-filter animations.
 * **Fully Responsive Layout:** Micro-optimized layouts tailored seamlessly across desktop screens, tablets, and ultra-small mobile devices.
 
-	![[preview.png]]
+	![preview.png](preview.png)
 
 	## Video Preview 🎥
-	![[PreviewVideo.mp4]]
+	<video src="https://github.com/user-attachments/assets/29f8252c-9a81-4283-9458-c04f2419c22c.mp4" controls="controls" style="max-width: 100%;">
+</video>
+
 
 ---
 
