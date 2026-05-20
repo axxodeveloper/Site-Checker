@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="AXXO">
+    <title>Site Checker 🔍</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+<div class="bg"></div>
+
+<div class="card">
+
+    <div class="icon">
+        <i class="fa-solid fa-shield-halved"></i>
+    </div>
+
+    <h1>Site Checker</h1>
+
+    <p>
+        Scan websites online with Google's protection | By - AXXO 
+    </p>
+
+    <div class="input-group">
+
+        <input
+            type="text"
+            id="urlInput"
+            placeholder="Enter website URL..."
+        >
+
+        <button id="googleBtn" onclick="googleCheck()" class="google-btn">
+            <i class="fa-brands fa-google"></i>
+            Search Reputation
+        </button>
+
+    </div>
+
+    <div id="result" class="result"></div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
